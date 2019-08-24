@@ -1,0 +1,26 @@
+.nytimage {
+    background-color: darkblue;
+    height: 100px;
+    width: 800px;
+    color: white;
+    text-align: center;
+ }
+ .box {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+ }
+ .sepa {
+    height: 25px;
+    width: 800px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+ }
+ .card {
+    border: 2px solid black;
+    color: black;
+ }
+ .background-color {
+    background-color:rgba(0,0,255,0.1);
+ }

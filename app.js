@@ -18,18 +18,18 @@ function displayNewsInfo() {
             console.log("Snippet: " + docs[docIndex].snippet)
             console.log("URL: " + docs[docIndex].web_url)
             console.log("by: " + docs[docIndex].web_)
-            
+
         }
-console.log("----------------------------------------------------------------------------------------------------------------------" )
+        console.log("----------------------------------------------------------------------------------------------------------------------");
         var pHeadline = $("<p>").text("Headline: " + docs[docIndex].headline.main);
-        
+
         newsDiv.append(pHeadline);
     });
 
- 
+
 };
-   
-    $("#search").click(displayNewsInfo)
+
+$("#search").click(displayNewsInfo)
 
 
 // displayNewsInfo();
